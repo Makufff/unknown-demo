@@ -274,18 +274,6 @@ function RoleSelectScreen({
             );
           })}
         </div>
-
-        <section className="mt-4 rounded-lg border border-coral/20 bg-coral/10 p-4">
-          <div className="flex gap-3">
-            <ShieldCheck className="mt-0.5 shrink-0 text-coral" size={22} />
-            <div>
-              <p className="font-semibold text-coral">AI recommends. Humans approve.</p>
-              <p className="mt-1 text-sm leading-6 text-slate-700">
-                ระบบนี้เป็น mockup สำหรับ hackathon แต่ flow ตั้งใจให้ดูเหมือน product ใช้งานจริงตั้งแต่วันแรก
-              </p>
-            </div>
-          </div>
-        </section>
       </div>
     </PhoneFrame>
   );
